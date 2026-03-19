@@ -73,6 +73,32 @@ Use this skill when:
 | Reference style | AMA |
 | Tables | Separate .docx files |
 
+### JPRAS (Journal of Plastic, Reconstructive & Aesthetic Surgery)
+| Requirement | Specification |
+|-------------|---------------|
+| Body word limit | No strict limit (varies by article type) |
+| Abstract | 250 words, unstructured |
+| Figure format | 300 DPI, TIFF/EPS/PDF |
+| Reference style | Vancouver (numbered) |
+| Tables | Embedded in single manuscript file |
+| Template | `_templates/jpras-reference.docx` |
+| Font | Times New Roman, 12pt |
+| Spacing | Double-spaced |
+| Margins | 1 inch all sides |
+
+### Annals of Plastic Surgery
+| Requirement | Specification |
+|-------------|---------------|
+| Body word limit | 3,000 |
+| Abstract | 200 words, unstructured |
+| Figure format | 300 DPI, TIFF |
+| Reference style | AMA |
+| Tables | Embedded in manuscript |
+| Template | `_templates/annals-reference.docx` |
+| Font | Times New Roman, 12pt |
+| Spacing | Double-spaced |
+| Margins | 1 inch all sides |
+
 ### How to Add Journal Configs
 Create a YAML file in your project's `review/` directory:
 
