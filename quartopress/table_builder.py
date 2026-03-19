@@ -6,7 +6,7 @@ Generates publication-ready tables with PRS journal formatting:
 - No internal row borders, no vertical lines, no shading
 
 Usage:
-    from prs_table_builder import TableSpec, build_prs_document
+    from quartopress import TableSpec, build_prs_document
 
     # From explicit rows
     spec = TableSpec(

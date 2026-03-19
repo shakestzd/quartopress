@@ -1,0 +1,63 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "quartopress"
+version = "0.1.0"
+description = "Publication-ready tables and manuscript pipeline for Quarto-based academic projects"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Thandolwethu Zwelakhe Dlamini" },
+]
+keywords = [
+    "quarto",
+    "manuscript",
+    "academic",
+    "publication",
+    "tables",
+    "docx",
+    "journal",
+    "PRS",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Text Processing :: Markup",
+]
+dependencies = [
+    "python-docx>=1.0.0",
+    "pandas>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/shakestzd/quartopress"
+Repository = "https://github.com/shakestzd/quartopress"
+Issues = "https://github.com/shakestzd/quartopress/issues"
+
+[project.scripts]
+quartopress-init = "quartopress.scaffold:main"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "quartopress/",
+    "templates/",
+    "agents/",
+    "skills/",
+    "commands/",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["quartopress"]
+artifacts = [
+    "templates/**",
+]

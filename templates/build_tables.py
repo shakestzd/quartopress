@@ -8,7 +8,7 @@ Usage:
 """
 
 from pathlib import Path
-from prs_table_builder import TableSpec, build_prs_document
+from quartopress import TableSpec, build_prs_document
 
 TABLES_DIR = Path("data/tables")
 OUTPUT_DIR = Path("output")
