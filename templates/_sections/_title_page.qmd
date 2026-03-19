@@ -1,6 +1,6 @@
 ::: {.title-page}
 
-# [Manuscript Title: Include Study Design and Population]
+**[Manuscript Title: Include Study Design and Population]**
 
 **Authors:**
 
