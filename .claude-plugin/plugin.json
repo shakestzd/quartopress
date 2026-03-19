@@ -1,7 +1,7 @@
 {
   "name": "quartopress",
   "description": "Quarto-based academic manuscript pipeline for journal submission. Scaffolds projects, builds publication-ready tables, detects AI writing tells, and generates upload packages. Agents: ai-tell-fixer, manuscript-reviewer, table-builder. Skills: manuscript-setup, build-upload, journal-compliance.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": {
     "name": "Thandolwethu Zwelakhe Dlamini"
   },
