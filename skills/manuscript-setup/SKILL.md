@@ -1,13 +1,25 @@
 # Manuscript Setup
 
-Scaffold a new Quarto-based academic manuscript project ready for journal submission.
+Scaffold a new or augment an existing Quarto-based manuscript project for journal submission.
 
 ## When to Use
 
 Use this skill when:
 - Starting a new manuscript project from scratch
+- Adding quartopress build pipeline to an existing project
 - Converting an existing draft into a structured Quarto project
-- Setting up the build pipeline for table/figure generation
+- Setting up table/figure generation in a project that already has .qmd files
+
+## New vs. Existing Projects
+
+**New project:** `quartopress-init ./my-manuscript --title "My Study"`
+Creates the full directory structure, all section templates, build scripts, and bibliography files.
+
+**Existing project:** `quartopress-init . `
+Detects what's already present (.qmd sections, .bib files, build scripts, table builder) and adds only what's missing. Never overwrites existing files unless `--force` is used.
+
+**Force mode:** `quartopress-init . --force`
+Overwrites all files with fresh templates. Use when you want to reset to defaults.
 
 ## Project Structure
 
