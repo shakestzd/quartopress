@@ -1,0 +1,21 @@
+# Methods
+
+## Study Design
+
+[Study type, setting, timeframe, ethical approval statement.]
+
+## [Intervention/Approach]
+
+[Description of the method, system, or intervention being evaluated. Reference Tables for specifications.]
+
+## [Data Collection/Validation]
+
+[How data was obtained. Replication approach if validating against prior work. Specific examples.]
+
+## Outcome Measures
+
+[Primary outcome with definition and formula. Secondary outcomes listed. Statistical thresholds adopted. Confidence interval method.]
+
+## Statistical Analysis
+
+[Formulas used, software, CI method. Distinguish primary from secondary analyses.]

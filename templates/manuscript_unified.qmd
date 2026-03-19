@@ -1,0 +1,30 @@
+---
+format:
+  docx:
+    reference-doc: _templates/journal-reference.docx
+    number-sections: false
+    toc: false
+bibliography: references.bib
+csl: citation-style.csl
+---
+
+{{< include _sections/_title_page.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include _sections/_abstract.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include _sections/_introduction.qmd >}}
+
+{{< include _sections/_methods.qmd >}}
+
+{{< include _sections/_results.qmd >}}
+
+{{< include _sections/_discussion.qmd >}}
+
+# References
+
+::: {#refs}
+:::

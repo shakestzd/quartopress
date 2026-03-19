@@ -1,0 +1,7 @@
+# INTRODUCTION
+
+[Paragraph 1: Clinical significance of the problem. What is the current state? What is the bottleneck or gap? Why does this matter for the target specialty?]
+
+[Paragraph 2: Current approaches and their limitations. What tools/methods exist? Why are they insufficient for this domain? What opportunity do they miss?]
+
+[Paragraph 3: Study objectives. What does this study validate/evaluate? What are the specific outcomes measured? Frame as testable questions.]

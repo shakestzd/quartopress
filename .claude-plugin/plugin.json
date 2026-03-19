@@ -1,0 +1,9 @@
+{
+  "name": "academic-manuscript",
+  "description": "Quarto-based academic manuscript pipeline for journal submission. Scaffolds manuscript projects, builds publication-ready tables and figures, renders upload packages, and validates journal compliance. Agents: ai-tell-fixer, manuscript-reviewer, table-builder. Skills: manuscript-setup, build-upload, journal-compliance.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Thandolwethu Zwelakhe Dlamini"
+  },
+  "skills": "./skills"
+}

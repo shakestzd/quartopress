@@ -1,0 +1,33 @@
+::: {.title-page}
+
+# [Manuscript Title: Include Study Design and Population]
+
+**Authors:**
+
+[First Author], [Degree]^1^; [Second Author], [Degree]^1,2^
+
+**Affiliations:**
+
+^1^[Department], [Institution], [City], [State/Country]
+
+^2^[Department], [Institution], [City], [State/Country]
+
+**Corresponding Author:**
+
+[Name], [Degree]\
+[Department]\
+[Institution]\
+[City], [State/Country]\
+Email: [email]
+
+**Conflicts of interest and sources of funding**: none declared.
+
+**Short Running Head:** [Short Title]
+
+Word Count: [X,XXX]
+
+Abstract Word Count: [XXX]
+
+**Keywords:** [keyword1; keyword2; keyword3]
+
+:::

@@ -1,0 +1,9 @@
+# ABSTRACT
+
+**Background**: [Clinical problem and study objective in 2-3 sentences.]
+
+**Methods**: [Study design, participants/data, intervention/approach, primary and secondary outcomes in 3-4 sentences.]
+
+**Results**: [Key findings with specific numbers in 3-4 sentences.]
+
+**Conclusions**: [Primary implications in 2 sentences.]

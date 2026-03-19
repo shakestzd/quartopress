@@ -1,0 +1,15 @@
+# Discussion
+
+[Paragraph 1: Principal findings restated briefly with key numbers. Performance depends on what?]
+
+[Paragraph 2: Comparison with existing approaches. How does this differ? What advantages? Reference tables for evidence.]
+
+[Paragraph 3: Clinical implications. Time savings, feasibility, accessibility. Hybrid workflow recommendations for high-stakes decisions. Future extensions.]
+
+[Paragraph 4: Error analysis. Characterize any false negatives/positives. Distinguish system errors from appropriate rule application.]
+
+[Paragraph 5: Limitations. Numbered list covering: configuration quality, data gaps, external validity, language, bias, model dependencies, IP/permissions.]
+
+## CONCLUSIONS
+
+[2 paragraphs: (1) What drives performance and key results. (2) Positioning and broader impact.]

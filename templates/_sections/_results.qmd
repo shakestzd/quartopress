@@ -1,0 +1,13 @@
+# Results
+
+## Primary Outcome
+
+[Lead with the key finding. Reference Table for full data. Report with 95% CIs where applicable.]
+
+## Secondary Outcomes
+
+[Precision, specificity, or other secondary metrics. Reference figures. Keep concise; let tables carry the detail.]
+
+## [Additional Analyses]
+
+[Stage-by-stage, subgroup, or sensitivity analyses. Reference figures.]
