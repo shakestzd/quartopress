@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    {
+      "name": "quartopress",
+      "description": "Quarto-based academic manuscript pipeline. Publication-ready tables, AI-tell detection, journal compliance, and upload package generation.",
+      "source": ".",
+      "category": "research"
+    }
+  ]
+}
