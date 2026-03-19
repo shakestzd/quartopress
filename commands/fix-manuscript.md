@@ -25,22 +25,27 @@ The most common rendering issue. Happens when both the YAML `title:` field AND a
 
 **Fix:** If the template file doesn't exist, offer to copy the correct one from quartopress using `/set-journal`. If the path is wrong, correct it.
 
-### 3. Stale Cross-References
+### 3. Outdated Journal Template
+**Detection:** Compare the project's reference `.docx` template (from the `reference-doc:` YAML path) against the latest version in the quartopress plugin at `${CLAUDE_PLUGIN_ROOT}/templates/_templates/`. Compare file sizes and modification dates. If the plugin has a newer template, the project copy may be stale.
+
+**Fix:** If the project template is older or differs from the plugin version, offer to update it by copying the latest from the plugin. Show the date difference and ask for confirmation before overwriting.
+
+### 4. Stale Cross-References
 **Detection:** Search all .qmd section files for Quarto cross-refs (`@tbl-`, `@fig-`) and verify each label is defined somewhere in the project. Also search for unresolved refs that rendered as `?@tbl-` or `?@fig-` in any .docx output.
 
 **Fix:** List undefined references and suggest either defining the label or replacing with plain text (e.g., "Table 1").
 
-### 4. Figure/Table Numbering Order
+### 5. Figure/Table Numbering Order
 **Detection:** Trace the order of first reference to each table and figure through the manuscript sections (Introduction → Methods → Results → Discussion). Compare with the assigned numbers.
 
 **Fix:** If numbering doesn't match first-citation order, report the correct mapping and offer to update the cross-reference map or plain-text references.
 
-### 5. Duplicate Title in Included Sections
+### 6. Duplicate Title in Included Sections
 **Detection:** When using `{{< include >}}` directives, check if multiple included files have `#` level headings that would create duplicate top-level structure.
 
 **Fix:** Ensure only the main manuscript sections (Introduction, Methods, Results, Discussion) use `#` headings. Title page content should use bold text, not headings.
 
-### 6. Inconsistent Terminology
+### 7. Inconsistent Terminology
 **Detection:** Scan all section files for mixed usage of terms that should be consistent:
 - "gold standard" vs "reference standard"
 - "GPT-4" vs "GPT-4.1" vs other model name variants
@@ -48,7 +53,7 @@ The most common rendering issue. Happens when both the YAML `title:` field AND a
 
 **Fix:** Report inconsistencies with line numbers and offer to normalize to the dominant usage.
 
-### 7. Word Count Verification
+### 8. Word Count Verification
 **Detection:** Count words in the body text sections (Introduction through Conclusions), excluding markup, comments, and citations. Compare with the count stated on the title page.
 
 **Fix:** Update the title page word count if it doesn't match. Also check abstract word count.
@@ -57,7 +62,7 @@ The most common rendering issue. Happens when both the YAML `title:` field AND a
 
 1. **Find manuscript files.** If a specific file was given, use it. Otherwise, search for `.qmd` files with `format:` in YAML or `{{< include` directives.
 
-2. **Run all 7 checks** on the identified files. Read each section file.
+2. **Run all 8 checks** on the identified files. Read each section file.
 
 3. **Report findings** in a structured table:
    ```

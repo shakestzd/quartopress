@@ -6,11 +6,11 @@
     "url": "https://github.com/shakestzd"
   },
   "description": "Quarto-based academic manuscript pipeline for journal submission",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "plugins": [
     {
       "name": "quartopress",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "source": "./",
       "description": "Publication-ready tables, AI-tell detection, journal compliance, and upload package generation",
       "category": "Research",
