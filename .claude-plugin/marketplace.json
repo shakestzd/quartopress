@@ -1,10 +1,26 @@
 {
+  "name": "quartopress",
+  "owner": {
+    "name": "Thandolwethu Zwelakhe Dlamini",
+    "email": "shakestzd@gmail.com",
+    "url": "https://github.com/shakestzd"
+  },
+  "description": "Quarto-based academic manuscript pipeline for journal submission",
+  "version": "0.2.0",
   "plugins": [
     {
       "name": "quartopress",
-      "description": "Quarto-based academic manuscript pipeline. Publication-ready tables, AI-tell detection, journal compliance, and upload package generation.",
-      "source": ".",
-      "category": "research"
+      "version": "0.2.0",
+      "source": "./",
+      "description": "Publication-ready tables, AI-tell detection, journal compliance, and upload package generation",
+      "category": "Research",
+      "tags": ["manuscript", "quarto", "tables", "academic", "journal", "publication"],
+      "author": {
+        "name": "Thandolwethu Zwelakhe Dlamini",
+        "url": "https://github.com/shakestzd"
+      },
+      "repository": "https://github.com/shakestzd/quartopress",
+      "license": "MIT"
     }
   ]
 }
